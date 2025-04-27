@@ -1,0 +1,102 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Pretendard', sans-serif;
+  }
+  
+  .intro {
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    text-align: center;
+    padding: 150px 20px;
+  }
+  .intro h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .intro p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .start-button {
+    background-color: #fff;
+    color: #764ba2;
+    border: none;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .start-button:hover {
+    background-color: #f0e9ff;
+    transform: scale(1.05);
+  }
+  
+  .list-page .list-header {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .list-page .back-button {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+  }
+  .list-page .back-button:hover {
+    background-color: #574fd6;
+  }
+  .list-page .list-title {
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+  .card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .card p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .promo-banner {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #555;
+    border-radius: 5px;
+  }
+  

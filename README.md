@@ -1,1 +1,19 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/--Uxz1rz)
+# 전국 중고서점 소개개 (Bookstore Info)
+
+서울 곳곳의 중고서점을 React와 한국문화정보원 Open API를 활용해 한눈에 볼 수 있는 웹 애플리케이션입니다.  
+첫 화면의 “중고서점 둘러보기” 버튼을 클릭하면 전국 중고서점 리스트가 카드 형태로 쫙 펼쳐지고,  
+리스트 상단의 ← 버튼을 눌러 언제든 메인 페이지로 돌아갈 수 있습니다.
+
+
+## 🛠 주요 기능
+
+- **첫 화면(Intro)**
+  - 깔끔한 그라데이션 배경과 환영 메시지
+  - “중고서점 둘러보기” 버튼
+- **리스트 페이지(List)**
+  - 전국 중고서점 이름(`FCLTY_NM`), 도로명 주소(`FCLTY_ROAD_NM_ADDR`), 전화번호(`TEL_NO`) 카드 표시  
+  - 카드 호버 애니메이션
+  - ← “처음으로 돌아가기” 버튼
+  - 하단 회색 배너: **프로모션/제휴 문의 : jamieirin@gmail.com**
+- **반응형 레이아웃**
+  - 카드 그리드가 화면 크기에 따라 자동으로 줄 나눔
